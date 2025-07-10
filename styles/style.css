@@ -42,8 +42,9 @@ nav{
 
 .container{
     width: 100%;
-    max-width: 1440px;
+    max-width: 1140px;
     margin: 0 auto;
+    
 }
 
 .content-box{
@@ -53,12 +54,39 @@ nav{
     padding-top: 309px;
     padding-bottom: 152px;
     font-weight: 700;
-    font-size: 65px;
     gap: 37px;
     text-align: center;
+    h1{
+        font-size: 65px;
+    }
     
     
 
+}
+
+/* section2 */
+
+.col-2{
+    display: flex;
+    gap: 23px;
+    justify-content: space-between;
+    
+}
+
+.col-3{
+    padding-top: 100px;
+}
+
+.col-2 img{
+    border: 16px;
+    border-radius: 48px;
+    align-items: center;
+    
+}
+
+.primary-container{
+    margin-top: 116px;
+    margin-bottom: 116px;
 }
 
 /* shared Style */
@@ -77,6 +105,17 @@ button:hover{
 
 h3{
     font-size: 34px;
+}
+h2{
+    font-size: 42px;
+    font-weight: 700;
+    padding-bottom: 23px;
+}
+p{
+    padding-bottom: 23px;
+    color: #252432;
+    font-size: 24px;
+    font-weight: 400;
 }
 
 

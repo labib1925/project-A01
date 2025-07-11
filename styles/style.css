@@ -112,8 +112,9 @@ nav h3{
       display: flex;
       justify-content: center;
       align-items: center;
-      height: 306px;
-      margin-bottom: 137px;
+      max-width: 1140px;
+      margin: 116px auto 137px;
+      
     }
 
     .section3-container {
@@ -159,8 +160,123 @@ nav h3{
   gap: 25px;
 }
 
+/* card section 4  */
+
+.review-card{
+      background-color: #f5f7ff;
+      padding: 50px;
+      margin: 0;
+    }
+
+    .review-section {
+      text-align: center;
+    
+    }
+
+    .review-section h2 {
+      font-size: 42px;
+      font-weight: bold;
+      color: #222;
+      margin-bottom: 40px;
+    }
+
+    .review-cards {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding-top: 50px;
+      
+      
+    }
+
+    .review-card {
+      background-color: #FFF5EE;
+      border-radius: 80px;
+      width: 400px;
+      box-shadow: 0 6px 10px rgba(0,0,0,0.05);
+      text-align: left;
+      padding: 40px;
+      
+    }
+
+    .stars {
+      color: #ffc107; /* gold color for stars */
+      margin-bottom: 10px;
+    }
+
+    .review-title {
+      font-weight: bold;
+      font-size: 16px;
+      margin-bottom: 8px;
+      color: #333;
+    }
+
+    .review-text {
+      font-size: 14px;
+      color: #555;
+      margin-bottom: 16px;
+    }
+
+    .reviewer {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .reviewer img {
+      width: 32px;
+      height: 32px;
+      border-radius: 50%;
+    }
+
+    .reviewer-info {
+      font-size: 12px;
+      color: #666;
+    }
+ .user-say {
+   max-width: 1140px;
+   margin: 137px auto;
+   
+ } 
+
+/* section5 */
 
 
+.ready-container{
+  text-align: center;
+  background-color: white;
+  padding: 71px;
+  text-align: center;
+  border-radius: 14px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+  
+  
+}
+
+.ready-title{
+font-size: 50px;
+font-weight: bold;
+}
+
+.section-4{
+  max-width: 1140px;
+  margin: 92px auto;
+
+}
+
+.wc-img{
+  height: 365px;
+  border-radius: 48px;
+  object-fit: cover;
+}
+
+.ready-container p{
+  margin: 20px auto 20px;
+}
+
+.section-4 .btn-primary {
+margin: 0px auto 20px;
+}
 
 /* shared Style */
 .btn-primary  {
@@ -171,9 +287,14 @@ nav h3{
     border-radius: 5px;
     border: none;
     padding: 12px 36px;
+    
 }
 button:hover{
     background-color: aquamarine;
+}
+
+.review-cards :hover{
+  background-color: white;
 }
 
 
